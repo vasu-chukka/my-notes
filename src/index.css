@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Karla", sans-serif;
-  background-color: #e8ebe7;
+  background-color: #1e1e2f;
 }
 
 button:focus {
@@ -37,14 +37,15 @@ hr {
 
 .sidebar--header > h3 {
   font-size: 2rem;
+  color: #f5f5f5;
   /* display: flex; */
 }
 
 .new-note {
   cursor: pointer;
-  background-color: #acbed8;
+  background-color: #ff4081;
   border: none;
-  color: white;
+  color: #f5f5f5;
   border-radius: 3px;
   height: 40px;
   width: 40px;
@@ -56,7 +57,8 @@ hr {
 
 .first-note {
   cursor: pointer;
-  background-color: #acbed8;
+  background-color: #ff4081;
+  color: #f5f5f5;
   border: none;
   border-radius: 3px;
   padding: 1rem;
@@ -88,9 +90,8 @@ hr {
 }
 .title:hover {
   padding: 3px;
-  box-shadow: 4px 4px 2px 2px grey;
-  background-color: #acbed8;
-  transition: 0.51s;
+  background-color: #ff5a92;
+  transition: 0.21s;
 }
 
 .note-summary:not(:last-of-type) {
@@ -100,20 +101,20 @@ hr {
 .text-snippet {
   padding-inline: 5px;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: bolder;
   line-height: 1.2rem;
-  color: #001242;
-  white-space: nowrap;
-  overflow: hidden;
+  color: #f5f5f5;
+  white-space: inherit;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .selected-note {
-  background-color: #acbed8;
+  background-color: #ff4081;
 }
 
 .selected-note .text-snippet {
-  color: #001242;
+  color: #f5f5f5;
   font-weight: 700;
 }
 
@@ -142,7 +143,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 .delete-btn {
@@ -153,11 +154,11 @@ hr {
 .delete-btn:hover {
   padding: 10px;
   border: none;
-  color: white;
+  color: #f5f5f5;
   background-color: #de1a1a;
-  box-shadow: 0.5px 0.5px 1px 1px white;
+  box-shadow: 0.5px 0.5px 1px 1px #f5f5f5;
   border-radius: 5px;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .title:hover > .delete-btn {
